@@ -3,6 +3,10 @@
 ## Overview
 This repository contains the implementation and analysis of a 3-DOF (Degree of Freedom) helicopter system for the graduate course "Modern Control" at the University of Tehran. The project encompasses **nonlinear modeling**, **state-space linearization**, **controller/observer design**, **stability analysis**, and **robustness validation** under disturbances and parameter variations. The system is simulated in MATLAB/Simulink, with a focus on achieving fast stabilization, accurate trajectory tracking, and robustness.
 
+<p align="center">
+  <img src="Helicopter.png" alt="Helicopter" width="500">
+</p>
+
 ---
 
 ## Project Structure
@@ -51,6 +55,10 @@ The final report and implementation follow the structure below:
 - **Tracking accuracy**: ±0.5° for step references, <2% error for sinusoidal inputs.
 - Voltage constraints maintained within ±24V for all scenarios.
 
+<p align="center">
+  <img src="Blocks.png" alt="Blocks" width="500">
+</p>
+
 ---
 
 ## Key Results
@@ -69,6 +77,10 @@ The final report and implementation follow the structure below:
 ### Observers
 - **Full-Order Observer**: State estimation convergence <1 sec (Fig. 12-13).
 - **Reduced-Order Observer**: Accurate derivative estimation (Fig. 16-17).
+
+<p align="center">
+  <img src="Plot.png" alt="Plot" width="500">
+</p>
 
 ---
 
